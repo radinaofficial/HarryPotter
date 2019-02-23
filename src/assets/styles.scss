@@ -1,0 +1,72 @@
+@import "./variables";
+
+// Import custom font from Google
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+
+html,body{
+  height:100%;
+}
+
+footer {
+    text-align: center;
+}
+
+.search-bar {
+  width: 20%;
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+
+#main-page {
+  background-color: #d05c27;
+  border-radius: 3px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table td, table th {
+  width: auto;
+  padding: 2px 8px;
+}
+
+.select-box {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center
+}
+
+.select-box select {
+  margin: 10px;
+}
+
+.select-box span {
+  font-weight: bold
+}
+
+table td {
+  background: #ee5a1f17;
+  border: 1px solid #d05c27;
+}
+
+.Gryffindor {
+  background-color: #ee5a1f17
+}
+
+.Ravenclaw {
+  background-color: #0066cc4b
+}
+
+.Slytherin {
+  background-color: #11cc004b
+}
+
+.Hufflepuff {
+  background-color: #c2cc004b
+}
